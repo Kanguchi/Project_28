@@ -36,12 +36,12 @@ function setup() {
 	//tree =  new Tree(600, 440, 300, 390);
 	stoneObj =  new Stone(110, 560, 15);
 	
-	mango6 = new mango(500, 440, 50);
+	mango1 = new mango(500, 440, 50);
 	mango2 = new mango(510, 400, 40);
 	mango3 = new mango(550, 370, 50);
 	mango4 = new mango(560, 450, 40);
 	mango5 = new mango(640, 420, 50);
-	mango1 = new mango(600, 360, 50);
+	mango6 = new mango(600, 360, 50);
 	
 
 	slingShot = new Slingshot(stoneObj.body, {x: 110, y: 560});
